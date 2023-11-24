@@ -144,10 +144,54 @@ This project aims to demonstrate the usage of GitHub Issues API endpoints. Below
 - **PATCH /repos/{user}/{repo}/issues/{num}**
   - Modifies the specified issue.
  
+{
+     
+     "url": "https://api.github.com/repos/Rosica-Vasileva/github-api-issues-demo/issues/6",
+     "html_url": "https://github.com/Rosica-Vasileva/github-api-issues-demo/issues/6",
+     "number": 6,
+     "title": "New Title",
+     "user": {
+     "login": "Rosica-Vasileva",
+     "id": 150438254,
+     // ... other user fields
+  
+  
+},
+  
+
+{  
+  
+  
+    "state": "open",
+    "created_at": "2023-11-24T12:00:00Z",
+    "updated_at": "2023-11-24T12:30:00Z",
+    // ... other fields
+
+
+}
+
+
+ 
   [PATCH /repos/Rosica-Vasileva/github-api-issues-demo/issues/6](https://developer.github.com/v3/issues/#update-an-issue)
 
 - **POST /repos/{user}/{repo}/issues/{num}/comments**
   - Creates a new comment for a certain issue.
+ 
+    curl -X POST \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -H "Content-Type: application/json" \
+
+ {
+
+
+     "body": ""Creating a new comment in problem 2 with a POST request via POSTMAN"."
+  
+
+  }
+
+
+  https://api.github.com/repos/Rosica-Vasileva/github-api-issues-demo/issues/6/comments
+
 
 - **PATCH /repos/{user}/{repo}/issues/comments/{id}**
   - Modifies an existing comment.
