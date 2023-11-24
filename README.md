@@ -1,4 +1,3 @@
-
 # GitHub API Issues Project
 
 ## Project Overview
@@ -9,6 +8,44 @@ This project aims to demonstrate the usage of GitHub Issues API endpoints. Below
 ### 1. GET Endpoints
 - **GET /repos/{user}/{repo}/issues**
   - Returns the issues in the given GitHub repo.
+ 
+ {
+   
+    "id": 5,
+    "title": "Example Issue 5",
+    "body": "This is the body of the issue.",
+    "created_at": "2023-01-01T00:00:00Z",
+    "updated_at": "2023-01-02T12:34:56Z"
+
+ }
+
+
+ {
+   
+    "id": 4,
+    "title": "Example Issue 4",
+    "body": "This is the body of the issue.",
+    "created_at": "2023-01-01T00:00:00Z",
+    "updated_at": "2023-01-02T12:34:56Z"
+
+ }
+
+
+ {
+   
+    "id": 2,
+    "title": "Example Issue 2",
+    "body": "This is the body of the issue.",
+    "created_at": "2023-01-01T00:00:00Z",
+    "updated_at": "2023-01-02T12:34:56Z"
+
+ }
+
+
+
+ 
+
+  
 
 - **GET /repos/{user}/{repo}/issues/{num}**
   - Returns the specified issue.
