@@ -105,6 +105,7 @@ This project aims to demonstrate the usage of GitHub Issues API endpoints. Below
 
 }
 
+[Вижте коментарите на Issue 2](https://github.com/Rosica-Vasileva/github-api-issues-demo/issues/4)
 
  
   - 
