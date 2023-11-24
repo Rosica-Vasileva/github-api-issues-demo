@@ -211,6 +211,10 @@ https://api.github.com/repos/Rosica-Vasileva/github-api-issues-demo/issues/comme
 
 - **DELETE /repos/{user}/{repo}/issues/comments/{id}**
   - Deletes an existing comment.
+ 
+  curl -X DELETE \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  "https://api.github.com/repos/Rosica-Vasileva/github-api-issues-demo/issues/comments/1825436828
 
 ## How to Use
 To interact with these endpoints, you can use any HTTP client such as [Postman](https://www.postman.com/). Make requests to the following base URL:
