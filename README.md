@@ -119,7 +119,7 @@ This project aims to demonstrate the usage of GitHub Issues API endpoints. Below
      "url": "https://api.github.com/repos/{user}/{repo}/issues/{issue_number}",
      "html_url": "https://github.com/{user}/{repo}/issues/{issue_number}",
      "number": 7,
-     "title": "Your Issue Title",
+     "title": "Create new issues from Postman",
      "user": {
      "login": "Rosica-Vasileva",
      "id": 150438254,
