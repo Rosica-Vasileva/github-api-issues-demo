@@ -196,6 +196,18 @@ This project aims to demonstrate the usage of GitHub Issues API endpoints. Below
 
 - **PATCH /repos/{user}/{repo}/issues/comments/{id}**
   - Modifies an existing comment.
+ 
+{
+    
+     "url": "https://api.github.com/repos/Rosica-Vasileva/github-api-issues-demo/issues/comments/{comment_id}",
+     "html_url": "https://github.com/Rosica-Vasileva/github-api-issues-demo/issues/{issue_number}#issuecomment-{comment_id}",
+     "id": 1825436828,
+     "body": "Modify an existing comment with a POST request.",
+      // ... other fields
+
+}
+
+https://api.github.com/repos/Rosica-Vasileva/github-api-issues-demo/issues/comments/1825436828
 
 - **DELETE /repos/{user}/{repo}/issues/comments/{id}**
   - Deletes an existing comment.
