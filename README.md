@@ -8,7 +8,7 @@ This project aims to demonstrate the usage of GitHub Issues API endpoints. Below
 ### 1. GET Endpoints
 - **GET /repos/{user}/{repo}/issues**
   - Returns the issues in the given GitHub repo.
- 
+ ```json
  {
    
     "id": 5,
